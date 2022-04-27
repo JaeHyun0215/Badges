@@ -4,6 +4,7 @@ version: 2.1
 
 orbs:
   win: circleci/windows@4.1
+  codecov: codecov/codecov@3.2.2
 # Define a job to be invoked later in a workflow.
 # See: https://circleci.com/docs/2.0/configuration-reference/#jobs
 jobs:
@@ -26,6 +27,12 @@ jobs:
       - checkout
       - run: dotnet test
 
+  coverage:
+    docker:
+      - image: cimg/base:stable
+    steps:
+      - codecov/upload
+
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
 workflows:
@@ -36,3 +43,7 @@ workflows:
   build-workflow:
     jobs:
       - build
+
+  coverage-workflow:
+    jobs:
+      - coverage
