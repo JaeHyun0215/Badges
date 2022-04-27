@@ -8,6 +8,8 @@
 ![image](https://img.shields.io/github/workflow/status/JaeHyun0215/Badges/dotnet-desktop?style=plastic)
 [![CircleCI](https://circleci.com/gh/JaeHyun0215/Badges/tree/main.svg?style=svg)](https://circleci.com/gh/JaeHyun0215/Badges/tree/main)
 
+[![CircleCI](https://dl.circleci.com/insights-snapshot/gh/JaeHyun0215/Badges/main/Build Error/badge.svg?window=30d)](https://app.circleci.com/insights/github/JaeHyun0215/Badges/workflows/Build Error/overview?branch=main&reporting-window=last-30-days&insights-snapshot=true)
+
 ![image](https://img.shields.io/github/issues/JaeHyun0215/Badges?style=plastic)
 ![image](https://img.shields.io/github/issues-closed/JaeHyun0215/Badges?style=plastic)
 
