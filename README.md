@@ -6,6 +6,7 @@
 
 ![image](https://img.shields.io/circleci/build/github/JaeHyun0215/Badges/TestBadges?style=plastic&token=437237d9d9e86b84be2a123f240c2f942c1a3d1c)
 ![image](https://img.shields.io/github/workflow/status/JaeHyun0215/Badges/dotnet-desktop?style=plastic)
+[![CircleCI](https://circleci.com/gh/JaeHyun0215/Badges/tree/main.svg?style=svg)](https://circleci.com/gh/JaeHyun0215/Badges/tree/main)
 
 ![image](https://img.shields.io/github/issues/JaeHyun0215/Badges?style=plastic)
 ![image](https://img.shields.io/github/issues-closed/JaeHyun0215/Badges?style=plastic)
