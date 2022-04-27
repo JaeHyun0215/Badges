@@ -26,11 +26,6 @@ jobs:
     steps:
       - checkout
       - run: dotnet test
-
-  coverage:
-    docker:
-      - image: cimg/base:stable
-    steps:
       - codecov/upload
 
 # Invoke jobs via workflows
@@ -43,7 +38,3 @@ workflows:
   build-workflow:
     jobs:
       - build
-
-  coverage-workflow:
-    jobs:
-      - coverage
